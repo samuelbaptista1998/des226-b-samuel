@@ -16,6 +16,7 @@ console.log("Variável:" + typeof cargo);
 console.log("");
 console.log("Data de Nascimento: " + dataNasc);
 console.log("Variável:" + typeof dataNasc);
+console.log("*******************");
 
 entrada();
 
