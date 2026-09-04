@@ -12,7 +12,7 @@ let listaMegaSena = [1, 21, 31, 41, 51, 59];
 // Data
 let hoje = new Date();
 
-// Reges -> Expressão regular, serve para verificações de valores
+// Regex -> Expressão regular, serve para verificações de valores
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 let email = "samuelbaptista1998@gmai.com";
 
