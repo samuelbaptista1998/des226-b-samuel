@@ -15,4 +15,4 @@ let acesso = (nome) => {
 console.log(acesso(nome));
 console.log("Entrada Registrada " + hoje);
 console.log("");
-console.log(typeof )
+console.log(typeof)
