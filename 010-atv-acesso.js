@@ -12,7 +12,14 @@ let disciplina = [
 let acesso = (nome) => {
   return `Olá, ${nome}! Seja bem-vindo ao laboratorio!`;
 };
+
+console.log();
 console.log(acesso(nome));
 console.log("Entrada Registrada " + hoje);
-console.log("");
-console.log(typeof)
+console.log();
+console.log(typeof acesso);
+console.log();
+console.log("Pressione Enter para sair.");
+
+entrada();
+/////////////////////////////////////
