@@ -17,7 +17,7 @@ console.log();
 console.log(acesso(nome));
 console.log("Entrada Registrada " + hoje);
 console.log();
-console.log(typeof acesso);
+console.log("Variavel");
 console.log();
 console.log("Pressione Enter para sair.");
 
