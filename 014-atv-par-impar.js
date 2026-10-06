@@ -1,6 +1,5 @@
 let entrada = require("prompt-sync")();
 
-<<<<<<< HEAD
 let num = entrada("Digite um numero: ");
 
 const regexPar = /[02468]$/;
@@ -24,7 +23,6 @@ if (num > 0) {
 }
 console.log("");
 
-=======
 let num1 = Number(entrada("Digite um numero: "));
 
 const regexPar = /^[0-9]*[02468]$/;
@@ -41,5 +39,4 @@ if (num1 > 0) {
   console.log("Esse numero é Zero!");
 }
 
->>>>>>> 5d436b08f7ec01b52f3e15f343da1568ad2c2803
 entrada();
