@@ -1,8 +1,8 @@
-let entrada = require("prompt-sync")();
+const entrada = require("prompt-sync")();
 
-let nota1 = Number(entrada("Nota 01: "));
-let nota2 = Number(entrada("Nota 02: "));
-let nota3 = Number(entrada("Nota 03: "));
+const nota1 = Number(entrada("Nota 01: "));
+const nota2 = Number(entrada("Nota 02: "));
+const nota3 = Number(entrada("Nota 03: "));
 
 if (
   nota1 < 0 ||

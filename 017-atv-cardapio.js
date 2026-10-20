@@ -1,18 +1,18 @@
-let entrada = require("prompt-sync")();
+const entrada = require("prompt-sync")();
 
 console.log("                  *ESCOLHA SEU PRODUTO*");
-let codigoProduto = entrada(
-  " (ex:Suco de Laranja , Refrigerante Lata ou Agua Mineral): ",
-);
-
+console.log("1- Suco de Laranja");
+console.log("2- Refrigerante Lata");
+console.log("3- Água Mineral");
+let codigoProduto = entrada("Digite o código do produto: ");
 switch (codigoProduto) {
-  case "SL":
+  case "1":
     console.log("Suco de Laranja - R$ 8,00");
     break;
-  case "RL":
+  case "2":
     console.log("Refrigerante Lata - R$ 6,00");
     break;
-  case "AM":
+  case "3":
     console.log("Água Mineral - R$ 4,00");
     break;
 
