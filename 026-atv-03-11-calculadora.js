@@ -4,7 +4,7 @@ let soma = 0;
 let contador = 0;
 let numero;
 
-console.log("--- SOMA CONTÍNUA (Digite 0 para parar) ---");
+console.log(" SOMA CONTÍNUA (Digite 0 para parar) ");
 
 do {
   numero = parseFloat(entrada("Digite um número: "));
@@ -15,7 +15,11 @@ do {
   }
 } while (numero !== 0);
 
+console.log("");
+
 console.log(`Total somado: ${soma}`);
 console.log(`Quantidade de valores somados: ${contador}`);
 
-entrada("🚨 Pressione ENTER para encerrar o programa 🚨");
+console.log("");
+
+entrada("Pressione ENTER para encerrar o programa!");

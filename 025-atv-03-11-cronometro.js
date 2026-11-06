@@ -8,4 +8,4 @@ for (let n = num; n >= 0; n--) {
 
 console.log("Decolagem autorizada!🚀​");
 
-entrada("🚨 ​Pressione ENTER para encerrar o programa! 🚨​");
+entrada("🚨  ​Pressione ENTER para encerrar o programa! 🚨​");
