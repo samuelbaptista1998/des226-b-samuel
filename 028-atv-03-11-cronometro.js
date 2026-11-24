@@ -1,6 +1,6 @@
 let i = 1;
 
-console.log("⏱️  Cronômetro Iniciado ...⏱️ \n");
+console.log("  Cronômetro Iniciado ... \n");
 
 const intervalo = setInterval(() => {
   process.stdout.clearLine(0);
@@ -10,7 +10,8 @@ const intervalo = setInterval(() => {
 
   if (i === 15) {
     clearInterval(intervalo);
-    console.log("\n\n ⚠️  Tempo limite de 15 segundos atingido!!!⚠️");
+    console.log("\n\n  Tempo limite de 15 segundos atingido!!!");
+    entrada("Pressione ENTER para encerrar!");
   }
 
   i++;

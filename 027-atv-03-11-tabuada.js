@@ -6,7 +6,7 @@ const fatorXInicial = Number(
 const fatorXFinal = Number(entrada("Digite um numero final do intervalo: "));
 
 for (let fatorX = fatorXInicial; fatorX <= fatorXFinal; fatorX++) {
-  console.log(`🧮 TABUADA DO ${fatorX} 🧮`);
+  console.log(` TABUADA DO ${fatorX} `);
 
   for (let fatorY = 1; fatorY <= 10; fatorY++) {
     const produto = fatorX * fatorY;
